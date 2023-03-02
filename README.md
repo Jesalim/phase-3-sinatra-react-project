@@ -23,7 +23,7 @@ Follow these steps to get a development environment running:
 ## Clone the repository to your local machine:
 ## terminal
 Copy code
-$ git clone git@github.com:Jesalim/phase-3-sinatra-react-project.git
+$ git clone git@github.com/Jesalim/phase-3-sinatra-react-project.git
 ## Install the required gems:
 ruby
 Copy code
