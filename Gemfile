@@ -38,10 +38,11 @@ gem "require_all", "~> 3.0"
 group :development do
   gem "pry", "~> 0.14.1"
 
-  # Automatically reload when there are changes
-  # https://github.com/alexch/rerun
   gem "rerun"
 end
+
+  # Automatically reload when there are changes
+  # https://github.com/alexch/rerun
 
 # These gems will only be used when we are running tests
 group :test do
