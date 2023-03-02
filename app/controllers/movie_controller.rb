@@ -2,6 +2,7 @@ class MovieController < Sinatra::Base
 
   set :default_content_type, 'application/json'
 
+  
   get '/movies' do
       movies = Movie.all.order(year: :desc)
       movies.to_json
