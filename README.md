@@ -83,9 +83,9 @@ Deletes a movie by its ID.
 This application can be deployed to a server like Heroku or AWS Elastic Beanstalk. Make sure to set the necessary environment variables (like database credentials) for the server environment.
 
 ## Built With
-Sinatra - Web framework
-ActiveRecord - Object-relational mapping library
-SQLite - Relational database management system
+- Sinatra - Web framework
+- ActiveRecord - Object-relational mapping library
+- SQLite - Relational database management system
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
