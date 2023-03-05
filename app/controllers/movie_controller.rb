@@ -80,7 +80,17 @@ post '/user/create' do
 
 end
 
+put 'update/movie/:id' do
+  data = JSON.parse(request.body.read)
+  movie = Movie.find(params[:id].to_i)
+  movie.update(data)
 
+end
+
+delete 'movie/destroy/:id' do
+  movie = Project.find(params[:id].to_i)
+  movie.destroy
+end
 
 
 end
