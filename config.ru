@@ -1,4 +1,6 @@
 require_relative './config/environment'
 
-run MovieController
+
+use MovieController
+run UserController
 

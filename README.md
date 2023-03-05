@@ -59,8 +59,7 @@ json
 Copy code
 {
   "title": "The Shawshank Redemption",
-  "release_year": 1994,
-  "director": "Frank Darabont",
+  "year": 1994,
   "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
 }
 PUT /movies/:id
@@ -72,8 +71,7 @@ json
 Copy code
 {
   "title": "The Shawshank Redemption",
-  "release_year": 1994,
-  "director": "Frank Darabont",
+  "year": 1994,
   "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
 }
 DELETE /movies/:id
