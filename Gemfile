@@ -10,11 +10,13 @@ gem 'sqlite3', '~> 1.6', '>= 1.6.1'
 
 gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.26'
 
+gem 'sinatra-cross_origin', '~> 0.4.0'
+
+gem 'rack-cors', '~> 2.0'
+
 gem 'puma', '~> 6.1'
 
 gem 'require_all', '~> 3.0'
-
-gem 'faker'
 
 group :development do
     gem 'rerun', '~> 0.14.0'
