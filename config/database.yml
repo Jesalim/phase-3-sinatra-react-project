@@ -4,4 +4,4 @@ development:
 
 production:
   adapter: sqlite3
-  database: "db/movies-prod.sqlite3"
+  database: "db/movies-prod.db"
